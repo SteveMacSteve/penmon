@@ -332,6 +332,8 @@ Required Data (hourly averages):
  
  then hour.eto() to calculate Penman-Monteith ET at specified hour.
  
+ Note that longitude has to be provided (° West of Greenwhich), and that in current version longitude of center of timezone is set for CET. 
+ 
 # TODO AND ISSUES
 
 

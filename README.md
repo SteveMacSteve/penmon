@@ -317,6 +317,21 @@ Recording solar radiation gets us the most accurate ETo:
 	day.radiation_s = 25.0
 	day.eto() # returns 5.04m	
 	
+# HourEntry Class
+Works similary to DayEntry. 
+
+Inititate via hour = station.hour(h), where h is a pandas datetime instance (generated with pandas.to_datetime) representing the time.
+
+Required Data (hourly averages):
+
+    hour.temp_mean : temperature 2 m above ground [°C]
+    hour.temp_soil : temperature near ground [°C]
+    hour.humidity_mean : relative humidity mean [%]
+    hour.wind_speed = wind speed [m/s]
+    hour.radiation_s = radiation [MJ/m²/h]
+ 
+ then hour.eto() to calculate Penman-Monteith ET at specified hour.
+ 
 # TODO AND ISSUES
 
 
@@ -332,7 +347,8 @@ See: [Issues at github.com][3]
 # AUTHOR
 
  Sherzod Ruzmetov <sherzodr@gmail.com>
- Stefano Martinetti <smartifano@gmail.com>
+ 
+ (HourEntry : Stefano Martinetti <smartifano@gmail.com>)
  
  [1]: http://www.fao.org/3/X0490E/x0490e00.htm
  [2]: https://github.com/sherzodr/libpenmon

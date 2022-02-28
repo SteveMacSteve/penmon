@@ -332,6 +332,7 @@ See: [Issues at github.com][3]
 # AUTHOR
 
  Sherzod Ruzmetov <sherzodr@gmail.com>
+ Stefano Martinetti <smartifano@gmail.com>
  
  [1]: http://www.fao.org/3/X0490E/x0490e00.htm
  [2]: https://github.com/sherzodr/libpenmon

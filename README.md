@@ -324,11 +324,11 @@ Inititate via hour = station.hour(h), where h is a pandas datetime instance (gen
 
 Required Data (hourly averages):
 
-    hour.temp_mean : temperature 2 m above ground [°C]
-    hour.temp_soil : temperature near ground [°C]
-    hour.humidity_mean : relative humidity mean [%]
-    hour.wind_speed = wind speed [m/s]
-    hour.radiation_s = radiation [MJ/m²/h]
+    hour.temp_mean 	: temperature 2 m above ground [°C]
+    hour.temp_soil 	: temperature near ground [°C]
+    hour.humidity_mean 	: relative humidity mean [%]
+    hour.wind_speed 	: wind speed [m/s]
+    hour.radiation_s 	: radiation [MJ/m²/h]
  
  then hour.eto() to calculate Penman-Monteith ET at specified hour.
  

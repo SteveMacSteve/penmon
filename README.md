@@ -350,7 +350,7 @@ See: [Issues at github.com][3]
 
  Sherzod Ruzmetov <sherzodr@gmail.com>
  
- (HourEntry : Stefano Martinetti <smartifano@gmail.com>)
+ (HourEntry : Stefano Martinetti <martstef@ethz.ch>)
  
  [1]: http://www.fao.org/3/X0490E/x0490e00.htm
  [2]: https://github.com/sherzodr/libpenmon
